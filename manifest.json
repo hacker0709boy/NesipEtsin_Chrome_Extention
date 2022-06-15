@@ -1,0 +1,18 @@
+{
+	"name": "Nesip Etsin Online Market ",
+	"version": "1.0.2",
+	"manifest_version": 2,
+	"description":"Nesip Etsin Online Market\nAşgabat Nesip Etsin Store.",
+
+	"browser_action": {
+		"default_popup": "popup.html",
+		"default_icon": "logoN.png",
+		"default_python": "popup.py"
+	},
+	"icons": {
+		"128": "logoN.png"
+
+	},
+	"permissions": ["activeTab"]
+
+}
